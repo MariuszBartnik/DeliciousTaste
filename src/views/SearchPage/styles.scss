@@ -1,0 +1,7 @@
+@import '../../shared/styles/placeholders.scss';
+
+
+.flexbox-column{
+    @extend %flexbox;
+    flex-direction: column!important; 
+}

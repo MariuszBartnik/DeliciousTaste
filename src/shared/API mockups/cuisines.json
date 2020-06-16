@@ -1,0 +1,1718 @@
+{
+  "results_found": 798,
+  "results_start": 0,
+  "results_shown": 20,
+  "restaurants": [
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900972
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900972",
+        "name": "U Szwejka",
+        "url": "https://www.zomato.com/warszawa/u-szwejka-\u015br\u00f3dmie\u015bcie-po\u0142udniowe?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Plac Konstytucji 1, \u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2213930000",
+          "longitude": "21.0160250000",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish, Czech, European",
+        "timings": "08:00 to 24:00 (Mon-Fri),10:00 to 24:00 (Sat-Sun)",
+        "average_cost_for_two": 66,
+        "price_range": 2,
+        "currency": "z\u0142",
+        "highlights": [
+          "Takeaway Available",
+          "Lunch",
+          "Credit Card",
+          "Breakfast",
+          "Dinner",
+          "Live Music",
+          "Indoor Seating",
+          "Wifi",
+          "Live Sports Screening",
+          "Kid Friendly",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900972_RESTAURANT_a8c6665b3fd8b6e8d4617c142093d91b_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "3.7",
+          "rating_text": "Dobrze",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": { "text": "3.7" },
+            "bg_color": { "type": "lime", "tint": "600" }
+          },
+          "votes": "783"
+        },
+        "all_reviews_count": 518,
+        "photos_url": "https://www.zomato.com/warszawa/u-szwejka-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 191,
+        "menu_url": "https://www.zomato.com/warszawa/u-szwejka-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900972_RESTAURANT_a8c6665b3fd8b6e8d4617c142093d91b_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900972",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/u-szwejka-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 339 17 10",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900988
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900988",
+        "name": "Momu",
+        "url": "https://www.zomato.com/warszawa/momu-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Wierzbowa 9/11, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2435680000",
+          "longitude": "21.0080930000",
+          "zipcode": "0",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "European, Polish",
+        "timings": "09:00 to 24:00 (Mon-Thu),09:00 to 01:00 (Fri),10:00 to 01:00 (Sat),10:00 to 24:00 (Sun)",
+        "average_cost_for_two": 110,
+        "price_range": 3,
+        "currency": "z\u0142",
+        "highlights": [
+          "Takeaway Available",
+          "Lunch",
+          "Credit Card",
+          "Breakfast",
+          "Dinner",
+          "Live Music",
+          "Indoor Seating",
+          "Pet Friendly",
+          "Wifi",
+          "Lunch Menu",
+          "Fullbar",
+          "Kid Friendly",
+          "Smoking Area",
+          "Board Games",
+          "Nightlife"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900988_RESTAURANT_4d26561e7919169acf4e4080a3bb5972.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.1",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.1" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "409"
+        },
+        "all_reviews_count": 209,
+        "photos_url": "https://www.zomato.com/warszawa/momu-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 480,
+        "menu_url": "https://www.zomato.com/warszawa/momu-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900988_RESTAURANT_4d26561e7919169acf4e4080a3bb5972.png",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900988",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/momu-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+48 506 100 001",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900196
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900196",
+        "name": "S\u0142oik",
+        "url": "https://www.zomato.com/warszawa/s\u0142oik-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Z\u0142ota 11, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2321999575",
+          "longitude": "21.0112928599",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish",
+        "timings": "09:00 to 23:00 (Mon-Thu),09:00 to 24:00 (Fri),10:00 to 24:00 (Sat),10:00 to 22:00 (Sun)",
+        "average_cost_for_two": 100,
+        "price_range": 3,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Takeaway Available",
+          "Lunch",
+          "Dinner",
+          "Indoor Seating",
+          "Wifi",
+          "Nightlife",
+          "Outdoor Seating",
+          "Pet Friendly",
+          "Lunch Menu",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900196_RESTAURANT_ae1301f27c68419caa8ac54d2bfb3d03_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": { "text": "3.9" },
+            "bg_color": { "type": "lime", "tint": "600" }
+          },
+          "votes": "398"
+        },
+        "all_reviews_count": 198,
+        "photos_url": "https://www.zomato.com/warszawa/s\u0142oik-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 265,
+        "menu_url": "https://www.zomato.com/warszawa/s\u0142oik-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900196_RESTAURANT_ae1301f27c68419caa8ac54d2bfb3d03_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900196",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/s\u0142oik-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+48 600 396 688",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900739
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900739",
+        "name": "Stary Dom",
+        "url": "https://www.zomato.com/warszawa/stary-dom-mokot\u00f3w-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Pu\u0142awska 104/106, Mokot\u00f3w, Warszawa",
+          "locality": "Mokot\u00f3w",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.1954900000",
+          "longitude": "21.0237650000",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "Mokot\u00f3w, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish",
+        "timings": "12:00 to 23:30 (Mon-Sun)",
+        "average_cost_for_two": 140,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Dinner",
+          "Credit Card",
+          "Takeaway Available",
+          "Lunch",
+          "Fullbar",
+          "Kid Friendly",
+          "Wifi",
+          "Indoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900739_RESTAURANT_3a2a29326f862849f82d2acde9d9727c_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.2" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "313"
+        },
+        "all_reviews_count": 219,
+        "photos_url": "https://www.zomato.com/warszawa/stary-dom-mokot\u00f3w-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 178,
+        "menu_url": "https://www.zomato.com/warszawa/stary-dom-mokot\u00f3w-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900739_RESTAURANT_3a2a29326f862849f82d2acde9d9727c_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900739",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/stary-dom-mokot\u00f3w-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 646 42 08",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10901361
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10901361",
+        "name": "Warszawa Wschodnia",
+        "url": "https://www.zomato.com/warszawa/warszawa-wschodnia-groch\u00f3w-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Soho Factory, Mi\u0144ska 25, Groch\u00f3w, Warszawa",
+          "locality": "Soho Factory, Kamionek",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2496388889",
+          "longitude": "21.0606944444",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "Soho Factory, Kamionek, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish, French, European",
+        "timings": "24 Hours (Mon-Sun)",
+        "average_cost_for_two": 210,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Lunch",
+          "Credit Card",
+          "Dinner",
+          "Serves Alcohol",
+          "Live Music",
+          "Indoor Seating",
+          "Disabled Friendly",
+          "Wifi",
+          "Lunch Menu",
+          "Kid Friendly",
+          "Pet Friendly",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10901361_RESTAURANT_2a683e246d17c7be2b0c7f8f58f89a52_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.4",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.4" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "198"
+        },
+        "all_reviews_count": 84,
+        "photos_url": "https://www.zomato.com/warszawa/warszawa-wschodnia-groch\u00f3w-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 163,
+        "menu_url": "https://www.zomato.com/warszawa/warszawa-wschodnia-groch\u00f3w-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10901361_RESTAURANT_2a683e246d17c7be2b0c7f8f58f89a52_c.jpg?output-format=webp",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10901361",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/warszawa-wschodnia-groch\u00f3w-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 870 29 18",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Fine Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 16526502
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "16526502",
+        "name": "Ja\u015b & Ma\u0142gosia",
+        "url": "https://www.zomato.com/warszawa/ja-ma\u0142gosia-muran\u00f3w-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Aleja Jana Paw\u0142a II 57, Muran\u00f3w, Warszawa",
+          "locality": "Muran\u00f3w",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2469250000",
+          "longitude": "20.9888166667",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "Muran\u00f3w, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish, Cafe, Burger",
+        "timings": "09:00 to 23:00 (Mon-Wed),09:00 to 24:00 (Thu),09:00 to 02:00 (Fri),10:00 to 02:00 (Sat),10:00 to 23:00 (Sun)",
+        "average_cost_for_two": 75,
+        "price_range": 2,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Cash",
+          "Takeaway Available",
+          "Breakfast",
+          "Lunch",
+          "Live Music",
+          "Outdoor Seating",
+          "Kid Friendly",
+          "Pet Friendly",
+          "Vegetarian Friendly",
+          "Live Sports Screening",
+          "Fullbar",
+          "Indoor Seating",
+          "Disabled Friendly",
+          "Wifi",
+          "Lunch Menu",
+          "Nightlife"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/16526502_RESTAURANT_3054e3ec5b91c3fb8ad61919fb84c497.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": { "text": "3.9" },
+            "bg_color": { "type": "lime", "tint": "600" }
+          },
+          "votes": "202"
+        },
+        "all_reviews_count": 112,
+        "photos_url": "https://www.zomato.com/warszawa/ja-ma\u0142gosia-muran\u00f3w-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 193,
+        "menu_url": "https://www.zomato.com/warszawa/ja-ma\u0142gosia-muran\u00f3w-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/16526502_RESTAURANT_3054e3ec5b91c3fb8ad61919fb84c497.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16526502",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/ja-ma\u0142gosia-muran\u00f3w-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+48 500 139 352",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 16526480
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "16526480",
+        "name": "Bazyliszek",
+        "url": "https://www.zomato.com/warszawa/bazyliszek-stare-miasto-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Rynek Starego Miasta 1/3, Stare Miasto, Warszawa",
+          "locality": "Stare Miasto",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2495204397",
+          "longitude": "21.0126554221",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "Stare Miasto, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish, European",
+        "timings": "11:00 to 24:00 (Mon-Sun)",
+        "average_cost_for_two": 100,
+        "price_range": 3,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Takeaway Available",
+          "Dinner",
+          "Lunch",
+          "Indoor Seating",
+          "Pet Friendly",
+          "Fullbar",
+          "Outdoor Seating",
+          "Kid Friendly",
+          "Live Sports Screening"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/16526480_RESTAURANT_e84452842623929367c23e277cbd52f8_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "3.7",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": { "text": "3.7" },
+            "bg_color": { "type": "lime", "tint": "600" }
+          },
+          "votes": "242"
+        },
+        "all_reviews_count": 154,
+        "photos_url": "https://www.zomato.com/warszawa/bazyliszek-stare-miasto-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 124,
+        "menu_url": "https://www.zomato.com/warszawa/bazyliszek-stare-miasto-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/16526480_RESTAURANT_e84452842623929367c23e277cbd52f8_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16526480",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/bazyliszek-stare-miasto-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 831 18 41",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10901777
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10901777",
+        "name": "Bazar Kocha",
+        "url": "https://www.zomato.com/warszawa/bazar-kocha-\u015br\u00f3dmie\u015bcie-po\u0142udniowe?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Mokotowska 33/35, \u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2218290000",
+          "longitude": "21.0191220000",
+          "zipcode": "0",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish",
+        "timings": "12:00 to 23:00 (Mon),09:00 to 23:00 (Tue-Sun)",
+        "average_cost_for_two": 135,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Breakfast",
+          "Lunch",
+          "Takeaway Available",
+          "Dinner",
+          "Pet Friendly",
+          "Indoor Seating",
+          "Wifi",
+          "Locally Sourced",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10901777_RESTAURANT_d5287c30e8a0d948cb81fc523bdf5332.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.1",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.1" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "125"
+        },
+        "all_reviews_count": 75,
+        "photos_url": "https://www.zomato.com/warszawa/bazar-kocha-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 261,
+        "menu_url": "https://www.zomato.com/warszawa/bazar-kocha-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10901777_RESTAURANT_d5287c30e8a0d948cb81fc523bdf5332.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10901777",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/bazar-kocha-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 102 20 70",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10901549
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10901549",
+        "name": "ArtBistro Stalowa52",
+        "url": "https://www.zomato.com/warszawa/artbistro-stalowa52-praga-p\u00f3\u0142noc-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Stalowa 52, Praga P\u00f3\u0142noc, Warszawa 03-429",
+          "locality": "Praga P\u00f3\u0142noc",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2617388889",
+          "longitude": "21.0446805556",
+          "zipcode": "03-429",
+          "country_id": 163,
+          "locality_verbose": "Praga P\u00f3\u0142noc, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "European, Polish, International",
+        "timings": "10:30 to 22:00 (Mon-Fri),11:00 to 22:00 (Sat-Sun)",
+        "average_cost_for_two": 130,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Dinner",
+          "Cash",
+          "Takeaway Available",
+          "Credit Card",
+          "Breakfast",
+          "Lunch",
+          "Outdoor Seating",
+          "Air Conditioned",
+          "Disabled Friendly",
+          "Private Dining Area Available",
+          "Wifi",
+          "Lunch Menu",
+          "Live Music",
+          "Indoor Seating",
+          "Kid Friendly",
+          "Pet Friendly",
+          "Smoking Area",
+          "Group Meal",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10901549_RESTAURANT_3767f374558c7451ec5672ec0a45c1d6.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.4",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.4" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "119"
+        },
+        "all_reviews_count": 76,
+        "photos_url": "https://www.zomato.com/warszawa/artbistro-stalowa52-praga-p\u00f3\u0142noc-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 239,
+        "menu_url": "https://www.zomato.com/warszawa/artbistro-stalowa52-praga-p\u00f3\u0142noc-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10901549_RESTAURANT_3767f374558c7451ec5672ec0a45c1d6.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10901549",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/artbistro-stalowa52-praga-p\u00f3\u0142noc-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 252 05 03",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10902677
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10902677",
+        "name": "Opas\u0142y Tom",
+        "url": "https://www.zomato.com/warszawa/opas\u0142y-tom-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Foksal 17, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2337632153",
+          "longitude": "21.0204777494",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "European, Polish, Mediterranean",
+        "timings": "12:00 to 22:00 (Mon-Sun)",
+        "average_cost_for_two": 150,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Takeaway Available",
+          "Lunch",
+          "Pet Friendly",
+          "Indoor Seating",
+          "Wifi",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10902677_RESTAURANT_b736e11755ad88fda76ae1a7f30dd6d7.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.2" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "164"
+        },
+        "all_reviews_count": 108,
+        "photos_url": "https://www.zomato.com/warszawa/opas\u0142y-tom-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 174,
+        "menu_url": "https://www.zomato.com/warszawa/opas\u0142y-tom-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10902677_RESTAURANT_b736e11755ad88fda76ae1a7f30dd6d7.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10902677",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/opas\u0142y-tom-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 621 18 81",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Fine Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 16525975
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "16525975",
+        "name": "Atelier Amaro",
+        "url": "https://www.zomato.com/warszawa/atelier-amaro-\u015br\u00f3dmie\u015bcie-po\u0142udniowe-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Agrykola 1, \u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2185694444",
+          "longitude": "21.0266444444",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish",
+        "timings": "18:00 to 22:30 (Mon, Tue, Sat, Sun), 12:00 to 14:30, 18:00 to 22:30 (Wed-Fri)",
+        "average_cost_for_two": 580,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Lunch",
+          "Luxury Dining",
+          "Fullbar",
+          "Indoor Seating",
+          "Wifi",
+          "Lunch Menu"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/16525975_CHAIN_2d98ac41fc1018f96ce5113dc470dae3_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.2" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "110"
+        },
+        "all_reviews_count": 75,
+        "photos_url": "https://www.zomato.com/warszawa/atelier-amaro-\u015br\u00f3dmie\u015bcie-po\u0142udniowe-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 192,
+        "menu_url": "https://www.zomato.com/warszawa/atelier-amaro-\u015br\u00f3dmie\u015bcie-po\u0142udniowe-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/16525975_CHAIN_2d98ac41fc1018f96ce5113dc470dae3_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16525975",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/atelier-amaro-\u015br\u00f3dmie\u015bcie-po\u0142udniowe-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 628 57 47",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Fine Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900193
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900193",
+        "name": "Loft",
+        "url": "https://www.zomato.com/loftzlota11?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Z\u0142ota 11, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2321001602",
+          "longitude": "21.0111292452",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "European, Polish, Asian",
+        "timings": "10:00 to 23:00 (Mon-Fri),11:00 to 23:00 (Sat),11:00 to 22:00 (Sun)",
+        "average_cost_for_two": 100,
+        "price_range": 3,
+        "currency": "z\u0142",
+        "highlights": [
+          "Dinner",
+          "Credit Card",
+          "Takeaway Available",
+          "Lunch",
+          "Breakfast",
+          "Sports Bar",
+          "Indoor Seating",
+          "Disabled Friendly",
+          "Wifi",
+          "Fullbar",
+          "Outdoor Seating",
+          "Kid Friendly",
+          "Pet Friendly",
+          "Lunch Menu"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900193_RESTAURANT_db92773da208fbc470b3c5c9b938653d_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.0",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.0" },
+            "bg_color": { "type": "lime", "tint": "600" }
+          },
+          "votes": "119"
+        },
+        "all_reviews_count": 68,
+        "photos_url": "https://www.zomato.com/loftzlota11/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 234,
+        "menu_url": "https://www.zomato.com/loftzlota11/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900193_RESTAURANT_db92773da208fbc470b3c5c9b938653d_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900193",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/loftzlota11/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+48 668 016 964",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900069
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900069",
+        "name": "S\u0142odki S\u0142ony",
+        "url": "https://www.zomato.com/warszawa/s-odki-s-ony-\u015br\u00f3dmie\u015bcie-po\u0142udniowe?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Mokotowska 45, \u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2231140000",
+          "longitude": "21.0198220000",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish, Desserts",
+        "timings": "11:00 to 22:00 (Mon),10:00 to 22:00 (Tue-Sun)",
+        "average_cost_for_two": 100,
+        "price_range": 3,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Takeaway Available",
+          "Dinner",
+          "Pet Friendly",
+          "Desserts and Bakes",
+          "Indoor Seating",
+          "Wifi",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900069_CHAIN_aa9092f68a06c04a4a7fcb3170a85082_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.0",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.0" },
+            "bg_color": { "type": "lime", "tint": "600" }
+          },
+          "votes": "119"
+        },
+        "all_reviews_count": 68,
+        "photos_url": "https://www.zomato.com/warszawa/s-odki-s-ony-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 212,
+        "menu_url": "https://www.zomato.com/warszawa/s-odki-s-ony-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900069_CHAIN_aa9092f68a06c04a4a7fcb3170a85082_c.jpg?output-format=webp",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900069",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/s-odki-s-ony-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 622 49 34",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900888
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900888",
+        "name": "Groole",
+        "url": "https://www.zomato.com/warszawa/groole-\u015br\u00f3dmie\u015bcie-po\u0142udniowe?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "\u015aniadeckich 8, \u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2215960000",
+          "longitude": "21.0151060000",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie Po\u0142udniowe, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish",
+        "timings": "12:00 to 22:00 (Mon-Sat),13:00 to 20:00 (Sun)",
+        "average_cost_for_two": 50,
+        "price_range": 2,
+        "currency": "z\u0142",
+        "highlights": [
+          "Dinner",
+          "Cash",
+          "Takeaway Available",
+          "Lunch",
+          "Credit Card",
+          "Gluten Free Options",
+          "Vegetarian Friendly",
+          "Lunch Menu",
+          "Fullbar",
+          "Indoor Seating",
+          "Pet Friendly",
+          "Vegan Options",
+          "Board Games",
+          "Outdoor Seating",
+          "Kid Friendly",
+          "Wifi"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900888_CHAIN_5add67ff5b24a94f0841a7a1d27c332c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.2" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "200"
+        },
+        "all_reviews_count": 94,
+        "photos_url": "https://www.zomato.com/warszawa/groole-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 110,
+        "menu_url": "https://www.zomato.com/warszawa/groole-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900888_CHAIN_5add67ff5b24a94f0841a7a1d27c332c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900888",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/groole-\u015br\u00f3dmie\u015bcie-po\u0142udniowe/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+48 795 633 626",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Quick Bites"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900626
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900626",
+        "name": "Informal Kitchen",
+        "url": "https://www.zomato.com/informalkitchen?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Plac Ma\u0142achowskiego 2, wej\u015bcie od Traugutta 7/9, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2390510000",
+          "longitude": "21.0128030000",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "European, Italian, Polish, Pizza",
+        "timings": "12:00 do 22:00 (Pon, Wt, \u015ar, Czw, Nd), 12:00 do 22:3 (Pt),12:00 do 23:00 (Sb)",
+        "average_cost_for_two": 120,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Takeaway Available",
+          "Lunch",
+          "Credit Card",
+          "Dinner",
+          "Lunch Menu",
+          "Indoor Seating",
+          "Wifi",
+          "Fullbar",
+          "Outdoor Seating",
+          "Pet Friendly"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900626_RESTAURANT_2e9d7b560e7e16e158d0f11dbdd8216e_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.1",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.1" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "132"
+        },
+        "all_reviews_count": 71,
+        "photos_url": "https://www.zomato.com/informalkitchen/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 176,
+        "menu_url": "https://www.zomato.com/informalkitchen/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900626_RESTAURANT_2e9d7b560e7e16e158d0f11dbdd8216e_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900626",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/informalkitchen/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+48 531 918 534",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 18378289
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "18378289",
+        "name": "Ed Red",
+        "url": "https://www.zomato.com/warszawa/ed-red-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Plac Mirowski 1, \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa",
+          "locality": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2388310000",
+          "longitude": "20.9973920000",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "\u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish",
+        "timings": "12:00 to 22:00 (Mon-Wed),12:00 to 23:00 (Thu-Sat),12:00 to 20:00 (Sun)",
+        "average_cost_for_two": 120,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Cash",
+          "Dinner",
+          "Credit Card",
+          "Takeaway Available",
+          "Lunch",
+          "Fullbar",
+          "Indoor Seating",
+          "Lunch Menu"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/18378289_RESTAURANT_3824ffd7b63b3430ddfc916f730d7faf.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.3",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.3" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "101"
+        },
+        "all_reviews_count": 53,
+        "photos_url": "https://www.zomato.com/warszawa/ed-red-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 184,
+        "menu_url": "https://www.zomato.com/warszawa/ed-red-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/18378289_RESTAURANT_3824ffd7b63b3430ddfc916f730d7faf.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/18378289",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/ed-red-r\u00f3dmie-cie-p\u00f3\u0142nocne-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+48 530 051 055",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900215
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900215",
+        "name": "Akademia",
+        "url": "https://www.zomato.com/warszawa/akademia-stary-mokot\u00f3w-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "R\u00f3\u017cana 2, Stary Mokot\u00f3w, Warszawa",
+          "locality": "Stary Mokot\u00f3w",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2036310000",
+          "longitude": "21.0226600000",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "Stary Mokot\u00f3w, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "European, Polish",
+        "timings": "12:00 to 22:00 (Mon-Sat),12:00 to 20:00 (Sun)",
+        "average_cost_for_two": 210,
+        "price_range": 4,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Dinner",
+          "Kid Friendly",
+          "Wifi",
+          "Indoor Seating",
+          "Luxury Dining",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900215_RESTAURANT_78296e61e40998adde3074d9328665f4_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.4",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.4" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "153"
+        },
+        "all_reviews_count": 113,
+        "photos_url": "https://www.zomato.com/warszawa/akademia-stary-mokot\u00f3w-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 134,
+        "menu_url": "https://www.zomato.com/warszawa/akademia-stary-mokot\u00f3w-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900215_RESTAURANT_78296e61e40998adde3074d9328665f4_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900215",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/akademia-stary-mokot\u00f3w-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 828 99 11",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Fine Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900257
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900257",
+        "name": "Podwale Kompania Piwna",
+        "url": "https://www.zomato.com/warszawa/podwale-kompania-piwna-stare-miasto-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Podwale 25, Stare Miasto, Warszawa",
+          "locality": "Stare Miasto",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2497777778",
+          "longitude": "21.0094444444",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "Stare Miasto, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish",
+        "timings": "11:00 to 01:00 (Mon-Sat),12:00 to 24:00 (Sun)",
+        "average_cost_for_two": 100,
+        "price_range": 3,
+        "currency": "z\u0142",
+        "highlights": [
+          "Lunch",
+          "Dinner",
+          "Credit Card",
+          "Wifi",
+          "Nightlife",
+          "Live Music",
+          "Indoor Seating",
+          "Kid Friendly",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900257_CHAIN_f6b83c0e2c08e97d37f29aa9d7772789_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.0",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.0" },
+            "bg_color": { "type": "lime", "tint": "600" }
+          },
+          "votes": "198"
+        },
+        "all_reviews_count": 103,
+        "photos_url": "https://www.zomato.com/warszawa/podwale-kompania-piwna-stare-miasto-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 117,
+        "menu_url": "https://www.zomato.com/warszawa/podwale-kompania-piwna-stare-miasto-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900257_CHAIN_f6b83c0e2c08e97d37f29aa9d7772789_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900257",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/podwale-kompania-piwna-stare-miasto-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 635 63 14",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Casual Dining"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10903776
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10903776",
+        "name": "Warszawa Powi\u015ble",
+        "url": "https://www.zomato.com/warszawa/warszawa-powi-le-powi\u015ble-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Kruczkowskiego 3B, Powi\u015ble, Warszawa",
+          "locality": "Powi\u015ble",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2340830000",
+          "longitude": "21.0298830000",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "Powi\u015ble, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Finger Food, Cafe, Polish",
+        "timings": "09:00 to 24:00 (Mon-Thu),09:00 to 02:00 (Fri),10:00 to 02:00 (Sat),10:00 to 24:00 (Sun)",
+        "average_cost_for_two": 40,
+        "price_range": 2,
+        "currency": "z\u0142",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Cash",
+          "Breakfast",
+          "Live Music",
+          "Outdoor Seating",
+          "Pet Friendly",
+          "Vegetarian Friendly",
+          "Nightlife",
+          "Snacks",
+          "Indoor Seating",
+          "Wifi",
+          "Lunch Menu",
+          "Fullbar"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10903776_RESTAURANT_174b5f8bcd75856a539f928bbaf4bbde_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.1",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": { "text": "4.1" },
+            "bg_color": { "type": "lime", "tint": "700" }
+          },
+          "votes": "116"
+        },
+        "all_reviews_count": 56,
+        "photos_url": "https://www.zomato.com/warszawa/warszawa-powi-le-powi\u015ble-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 159,
+        "menu_url": "https://www.zomato.com/warszawa/warszawa-powi-le-powi\u015ble-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10903776_RESTAURANT_174b5f8bcd75856a539f928bbaf4bbde_c.jpg?output-format=webp",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10903776",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/warszawa-powi-le-powi\u015ble-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "22 474 40 84",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Bar"],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": { "delivery": -1, "takeaway": -1 },
+          "res_id": 10900694
+        },
+        "apikey": "dd004bb927ecfe87e6c1a670a5956cfb",
+        "id": "10900694",
+        "name": "Pub Lolek",
+        "url": "https://www.zomato.com/warszawa/pub-lolek-ochota-warszawa?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Rokitnicka 20, Ochota, Warszawa",
+          "locality": "Ochota",
+          "city": "Warszawa",
+          "city_id": 109,
+          "latitude": "52.2111083333",
+          "longitude": "20.9925583333",
+          "zipcode": "",
+          "country_id": 163,
+          "locality_verbose": "Ochota, Warszawa"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Polish, Finger Food, Grill",
+        "timings": "11:00 to 02:00 (Mon-Sun)",
+        "average_cost_for_two": 60,
+        "price_range": 2,
+        "currency": "z\u0142",
+        "highlights": [
+          "Takeaway Available",
+          "Dinner",
+          "Credit Card",
+          "Lunch",
+          "Live Music",
+          "Indoor Seating",
+          "Pet Friendly",
+          "Wifi",
+          "Nightlife",
+          "Fullbar",
+          "Kid Friendly",
+          "Smoking Area",
+          "Live Sports Screening"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https://b.zmtcdn.com/data/res_imagery/10900694_RESTAURANT_4ef57132db5fcc7083b3f5b58cc29217.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "3.8",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": { "text": "3.8" },
+            "bg_color": { "type": "lime", "tint": "600" }
+          },
+          "votes": "139"
+        },
+        "all_reviews_count": 82,
+        "photos_url": "https://www.zomato.com/warszawa/pub-lolek-ochota-warszawa/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 148,
+        "menu_url": "https://www.zomato.com/warszawa/pub-lolek-ochota-warszawa/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/res_imagery/10900694_RESTAURANT_4ef57132db5fcc7083b3f5b58cc29217.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/10900694",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/warszawa/pub-lolek-ochota-warszawa/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+48 602 685 795",
+        "all_reviews": {
+          "reviews": [
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] },
+            { "review": [] }
+          ]
+        },
+        "establishment": ["Pub"],
+        "establishment_types": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+@import '../../shared//styles/mixin.scss';
+
+.collection-list {
+    @include flex(space-between);
+}

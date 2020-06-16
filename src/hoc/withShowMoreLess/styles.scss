@@ -1,0 +1,15 @@
+@import '../../shared//styles/variables.scss';
+@import '../../shared/styles/placeholders.scss';
+@import '../../shared/styles/mixin.scss';
+
+
+.show-more-button{
+    @extend %button;
+    width: 100%;
+    background: transparent;
+    border: $basic-border;
+
+    &:hover{
+        @include button-hover($accent-color, $white-color);
+    }
+}

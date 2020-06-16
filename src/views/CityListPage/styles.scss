@@ -1,0 +1,6 @@
+@import '../../shared/styles/placeholders.scss';
+
+.scrollable-wrapper{
+    @extend %wrapper;
+    overflow-y: auto;
+}

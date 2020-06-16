@@ -1,0 +1,10 @@
+@mixin button-hover($background-color, $color){
+    background: $background-color;
+    color: $color;
+}
+
+@mixin flex($justify) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+}

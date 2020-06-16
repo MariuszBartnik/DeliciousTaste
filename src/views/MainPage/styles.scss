@@ -1,0 +1,26 @@
+@import '../../shared//styles/variables.scss';
+@import '../../shared//styles//placeholders.scss';
+
+.column {
+    flex: 1 0 50%;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filled-button {
+    @extend %button;
+    background: $accent-color;
+    color: $dark-color;
+    border: none;
+}
+
+.outline-button {
+    @extend %button;
+    background: transparent;
+    color: #fff;
+    border: 2px solid $accent-color;
+}

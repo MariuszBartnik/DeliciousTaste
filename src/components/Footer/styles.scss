@@ -1,0 +1,46 @@
+footer {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 2.5rem;
+}
+
+.copy {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 1024px){
+        flex-direction:row;
+        justify-items: space-between;
+    }
+}
+
+.info-detail {
+    position: relative;
+    flex: 1;
+    margin-bottom: 2rem;
+    padding-left: 10px;
+
+    h5{
+        font-size: .9rem;
+        margin-bottom: .5rem;
+    }
+
+    a{
+        color: #f4f4f4;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: #37ECCB;
+    }
+}

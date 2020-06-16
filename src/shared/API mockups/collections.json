@@ -1,0 +1,119 @@
+{
+  "collections": [
+    {
+      "collection": {
+        "collection_id": 1,
+        "res_count": 30,
+        "image_url": "https://b.zmtcdn.com/data/collections/e1d5e8f900dbca01d11f353ef4b6a97c_1581661395.jpg",
+        "url": "https://www.zomato.com/ncr/top-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Trending This Week",
+        "description": "Most popular restaurants in town this week",
+        "share_url": "http://www.zoma.to/c-109/1"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 68,
+        "res_count": 27,
+        "image_url": "https://b.zmtcdn.com/data/collections/7183c11319d00056c26c32c3b115f7b0_1427364741_l.jpg",
+        "url": "https://www.zomato.com/ncr/group-meals?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Group meals",
+        "description": "It's funner with friends.",
+        "share_url": "http://www.zoma.to/c-109/68"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 12,
+        "res_count": 27,
+        "image_url": "https://b.zmtcdn.com/data/collections/b881f496afbf6a3baeb1165ec3dd7ec1_1463135565.jpg",
+        "url": "https://www.zomato.com/ncr/cheap-eats?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Pocket Friendly Options For You",
+        "description": "Your top options when dining on a budget",
+        "share_url": "http://www.zoma.to/c-109/12"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 3,
+        "res_count": 23,
+        "image_url": "https://b.zmtcdn.com/data/collections/90999c2395ba9c9c40998607c8dd5af1_1581058174.jpg",
+        "url": "https://www.zomato.com/ncr/romantic-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Romantic",
+        "description": "The perfect spots for a romantic meal",
+        "share_url": "http://www.zoma.to/c-109/3"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 5,
+        "res_count": 24,
+        "image_url": "https://b.zmtcdn.com/data/collections/d38669ed7b829ceb2814678420a629da_1560353561.jpg",
+        "url": "https://www.zomato.com/ncr/best-burger?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Kickass Burgers",
+        "description": "Chow down on a cheeselicious burger!",
+        "share_url": "http://www.zoma.to/c-109/5"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 33534,
+        "res_count": 74,
+        "image_url": "https://b.zmtcdn.com/data/collections/01a6ac1db1dc13183744272d0781c512_1452590417.jpg",
+        "url": "https://www.zomato.com/ncr/go-out?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Go out",
+        "description": "Best Restaurants in association with Go Out",
+        "share_url": "http://www.zoma.to/c-109/33534"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 58,
+        "res_count": 26,
+        "image_url": "https://b.zmtcdn.com/data/collections/3fa6a1d163fa81af3b4fb3e33a7bb540_1535355867.jpg",
+        "url": "https://www.zomato.com/ncr/asian-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Pan-Asian Delicacies",
+        "description": "The best places for Asian fare",
+        "share_url": "http://www.zoma.to/c-109/58"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 19,
+        "res_count": 32,
+        "image_url": "https://b.zmtcdn.com/data/collections/2e5c5dc79d4b465797c8e425d814f42c_1582256432.jpg",
+        "url": "https://www.zomato.com/ncr/vegetarian-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Veggie Friendly",
+        "description": "Restaurants serving the best vegetarian fare",
+        "share_url": "http://www.zoma.to/c-109/19"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 345,
+        "res_count": 27,
+        "image_url": "https://b.zmtcdn.com/data/collections/1200f8eb4afdb7f7fef6d3c30d4d54e1_1421236302_l.jpg",
+        "url": "https://www.zomato.com/ncr/polish-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Polish specials",
+        "description": "Immerse yourself in the cuisine of this beautiful country",
+        "share_url": "http://www.zoma.to/c-109/345"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 86286,
+        "res_count": 16,
+        "image_url": "https://b.zmtcdn.com/data/collections/acb567644854817b0f42b242698e2352_1458575152.jpg",
+        "url": "https://www.zomato.com/ncr/tartare?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Tartare",
+        "description": "Some like it raw",
+        "share_url": "http://www.zoma.to/c-109/86286"
+      }
+    }
+  ],
+  "has_more": 0,
+  "share_url": "http://www.zoma.to/c-109",
+  "display_text": "OR EXPLORE OUR COLLECTIONS",
+  "has_total": 0,
+  "user_has_addresses": true
+}
