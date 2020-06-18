@@ -1,0 +1,5 @@
+@import '../../shared/styles/mixin.scss'; 
+
+.city-list {
+    @include flex(center);
+}

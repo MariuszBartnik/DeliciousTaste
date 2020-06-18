@@ -1,8 +1,8 @@
 import React from 'react'
 import './styles.scss'
 
-import MainTitle from '../../components/MainTitle';
-import Cities from '../../components/Cities';
+import MainTitle from '../../components/MainTitle/';
+import Cities from '../../components/Cities/';
 
 import * as cities from '../../shared/API mockups/cities.json';
 
@@ -18,4 +18,4 @@ const CityListPage = () => {
     )
 }
 
-export default CityListPage
+export default CityListPage;

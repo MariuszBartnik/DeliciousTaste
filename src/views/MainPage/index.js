@@ -1,8 +1,9 @@
 import React from 'react';
-import './styles.scss';
 
-import MainTitle from '../../components/MainTitle';
-import PhotosGrid from '../../components/PhotosGrid';
+import MainTitle from '../../components/MainTitle/';
+import PhotosGrid from '../../components/PhotosGrid/';
+
+import './styles.scss';
 
 const MainPage = () => {
     

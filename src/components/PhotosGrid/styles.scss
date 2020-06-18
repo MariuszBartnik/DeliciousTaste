@@ -1,0 +1,39 @@
+.gallery-grid {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-wrapper {
+    flex: 1 0 30%;
+    margin: 1%;
+
+    img{
+        width: 100%;
+    }
+} 
+
+// const animate = keyframes`
+//     0%{
+//         opacity: 0;
+//     }
+
+//     50%{
+//         opacity: .5;
+//         transform: translateX(100px)
+//             rotateZ(-10deg) 
+//             rotateX(10deg) 
+//             rotateY(5deg)
+//             perspective(200px);
+//     }
+
+//     100%{
+//         opacity 1;
+//         transform: perspective(400px) 
+//                    rotateZ(-20deg) 
+//                    rotateX(20deg) 
+//                    rotateY(10deg);
+//     }
+// `;

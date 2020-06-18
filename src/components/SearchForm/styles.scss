@@ -1,0 +1,48 @@
+@import '../../shared/styles/variables.scss';
+@import'../../shared/styles/placeholders.scss';
+
+.form {
+    width: 90%;
+} 
+
+.input {
+    @extend %button;
+    text-align: center;
+    width: 100%;
+    background: transparent;
+    color: $white-color;
+    border: 2px solid $accent-color;
+    cursor: auto;
+
+    &::placeholder{
+        color: $light-color;
+    }
+}
+
+
+.submit-button {
+    @extend %button;
+    width: 100%;
+    background: $accent-color;
+    color: $dark-color;
+    border: none;
+}
+
+
+@media (min-width: 768px){
+    .form{
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px){
+    .form{
+        width: 60%;
+    }
+
+    .submit-button {
+        width: 30%;
+        margin: 1rem 0; 
+        margin-left: auto;
+    }
+}
