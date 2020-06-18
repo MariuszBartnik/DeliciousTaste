@@ -1,10 +1,10 @@
 import React from 'react';
 
-import RestaurantTopBar from '../../components/RestaurantTopBar';
-import RestaurantBasicInfo from '../../components/RestaurantBasicInfo';
-import RestaurantReviews from '../../components/RestaurantReviews';
-import RestaurantLocation from '../../components/RestaurantLocation';
-import Footer from '../../components/Footer';
+import RestaurantTopBar from '../../components/RestaurantTopBar/';
+import RestaurantBasicInfo from '../../components/RestaurantBasicInfo/';
+import RestaurantReviews from '../../components/RestaurantReviews/';
+import RestaurantLocation from '../../components/RestaurantLocation/';
+import Footer from '../../components/Footer/';
 import Loader from '../../components/Loader';
 
 import * as restaurant from '../../shared/API mockups/restaurant.json';

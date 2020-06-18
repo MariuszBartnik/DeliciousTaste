@@ -1,0 +1,127 @@
+@import '../../shared/styles/variables.scss';
+
+.review-box {
+    display: flex;
+    flex-direction: column;
+    border: $basic-border;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+
+.user-box {
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+    
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: -1rem;
+        left: 0; right: 0; top: 0;
+        border-bottom: $basic-border;
+    }
+}
+    
+.user-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.user-name{
+    color: $dark-color;
+    font-size: 1.1rem;
+    margin: .7rem 0;
+}
+
+.user-level {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    font-size: .9rem;
+    color: $white-color;
+    padding: .5rem;
+    border-radius: 1.5rem;
+}
+
+.rating-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-text{
+    text-align: left;
+    color: $dark-color;
+    margin: .5rem 0;
+}
+
+.review-date {
+    font-size: .9rem;
+    text-align: right;
+    color: $light-color;
+}
+
+
+@media (min-width: 768px){
+    .review-box{
+        flex-direction: row;
+    }
+
+    .user-box {
+        margin-bottom: 0;
+        margin-right: 2rem;
+        height: 100%;
+        flex-basis: 30%;
+
+        &::after{
+            bottom: 0rem;
+            right: -1rem;
+            border-bottom: none;
+            border-right: 1px solid #37ECCB;
+        }
+    }
+
+    .user-img {
+        width: 60px;
+    }
+
+    .user-level {
+        width: 90%;
+    }
+
+    .rating-box {
+        flex-basis: 70%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    .star-ratings {
+        flex: 1 0 45%;
+        order: 1;
+    }
+
+    .review-text {
+        flex: 1 0 100%;
+        order: 3;
+    }
+
+    .review-date {
+        flex: 1 0 45%;
+        order: 2;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .user-box{
+        flex-basis: 20%;
+    }
+
+    .rating-box {
+        flex-basis: 80%;
+    }
+}

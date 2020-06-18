@@ -1,16 +1,9 @@
 import React, { useEffect } from 'react';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
-import MarkerIcon from '../assets/marker.png' 
+import MarkerIcon from '../../assets/marker.png' 
 
-import styled from 'styled-components';
-
-const MapCanvas = styled.div`
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    margin: 1rem auto 0;
-`;
+import './styles.scss';
 
 const GoogleMap = ({ coordinates }) => {
 
@@ -52,12 +45,12 @@ const GoogleMap = ({ coordinates }) => {
     }
 
     return (
-        <MapCanvas id="myMap" />
+        <div className="map-canvas" id="myMap" />
     )
 }
 
 GoogleMap.propTypes = {
-    coordinates: propTypes.objectOf(propTypes.string)
+    coordinates: PropTypes.objectOf(PropTypes.string)
 }
 
 export default GoogleMap;

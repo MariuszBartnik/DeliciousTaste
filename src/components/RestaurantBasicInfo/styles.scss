@@ -1,0 +1,45 @@
+@import '../../shared/styles/variables.scss';
+@import '../../shared/styles/mixin.scss';
+@import '../../shared/styles/placeholders.scss';
+
+.info-box {
+    @include flex(flex-start);
+    position: relative;
+    padding: 3rem;
+    border: $basic-border;
+    margin: 3rem 0;
+}
+
+.info-title {
+    position: absolute;
+    font-size: 1.1rem;
+    padding: 0 2rem;
+    background: $white-color;
+    line-height: 1rem;
+    top: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.info-content {
+    @extend %info-item;
+    border: $basic-border;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+}
+
+
+.highlight-item {
+    @extend %info-item;
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 2rem;
+        margin-right: .5rem;
+    }
+}

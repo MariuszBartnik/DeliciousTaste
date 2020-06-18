@@ -1,0 +1,64 @@
+@import '../../shared/styles/variables.scss';
+
+.restaurant-top-bar {
+    position: relative;
+    color: $white-color;
+    padding: .5rem 0 0;
+    
+    h2 {
+        position: relative;
+        font-family: $secondary-font;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align:center;
+        margin: 0 0 2rem;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.5);
+    }
+}
+
+.contact-info-bar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    padding: 1rem 3rem;
+    background: rgba(0,0,0,.5);
+
+}
+
+.contact-detail {
+    flex: 1 0 33%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+    align-items: center;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    
+    img {
+        height: 2rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 768px){
+    .contact-info-bar {
+        flex-direction: row;
+    }
+
+    .contact-detail {
+        margin-bottom: 0;
+    }
+
+}
