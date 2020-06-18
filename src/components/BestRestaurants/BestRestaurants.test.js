@@ -1,8 +1,5 @@
-import React from 'react';
-import { mount } from 'enzyme';
-
 import BestRestaurants from './index';
-import { findByTestAttribute } from '../../shared/scripts/testUtils';
+import { setUpTest, findByTestAttribute } from '../../shared/scripts/testUtils';
 
 
 
@@ -106,7 +103,8 @@ describe('Best Restaurants component', () => {
               },
         ]
     
-        component = mount(< BestRestaurants city={city} restaurants={restaurants}/>)
+        component = setUpTest(BestRestaurants, {city, restaurants});
+        component = component.childAt(0).dive();
     })
 
     it('Should render without errors', () => {

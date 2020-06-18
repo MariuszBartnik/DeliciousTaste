@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-import SectionTitle from '../SectionTitle';
-import CollectionItem from '../CollectionItem';
+import SectionTitle from '../SectionTitle/';
+import CollectionItem from '../CollectionItem/';
 import withShowMoreLess from '../../hoc/withShowMoreLess/'
 
 import './styles.scss';

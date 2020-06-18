@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import SectionTitle from '../SectionTitle';
-import RestaurantItem from '../RestaurantItem';
+import SectionTitle from '../SectionTitle/';
+import RestaurantItem from '../RestaurantItem/';
 import withShowMoreLess from '../../hoc/withShowMoreLess/';
 
 import './styles.scss';
