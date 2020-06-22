@@ -1,6 +1,10 @@
+@import '../../shared/styles/variables.scss';
+@import '../../shared/styles/mixin.scss';
+@import '../../shared/styles/placeholders.scss';
+
 footer {
-    background: #1a1a1a;
-    color: #fff;
+    background: $dark-color;
+    color: $white-color;
     padding: 2.5rem;
 }
 
@@ -10,13 +14,7 @@ footer {
 }
 
 .author-info {
-    display: flex;
-    flex-direction: column;
-
-    @media (min-width: 1024px){
-        flex-direction:row;
-        justify-items: space-between;
-    }
+    @extend %flex-column;
 }
 
 .info-detail {
@@ -26,21 +24,27 @@ footer {
     padding-left: 10px;
 
     h5{
-        font-size: .9rem;
+        font-size: $smaller;
         margin-bottom: .5rem;
     }
 
     a{
-        color: #f4f4f4;
+        color: $white-color;
     }
 
     &::before{
         content: '';
         position: absolute;
-        top: 0px;
-        left: 0;
+        top: 0; left: 0;
         width: 3px;
         height: 100%;
-        background: #37ECCB;
+        background: $accent-color;
+    }
+}
+
+@include laptop {
+    .author-info {
+        flex-direction:row;
+        justify-items: space-between;
     }
 }

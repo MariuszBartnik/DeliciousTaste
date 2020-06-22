@@ -4,7 +4,7 @@
 
 
 .show-more-button{
-    @extend %button;
+    @extend %action;
     width: 100%;
     background: transparent;
     border: $basic-border;

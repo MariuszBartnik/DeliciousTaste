@@ -2,25 +2,23 @@
 @import '../../shared//styles//placeholders.scss';
 
 .column {
+    @extend %flex-column;
     flex: 1 0 50%;
-    font-family: 'Playfair Display', serif;
+    font-family: $secondary-font;
     text-align: center;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .filled-button {
-    @extend %button;
+    @extend %action;
     background: $accent-color;
     color: $dark-color;
     border: none;
 }
 
 .outline-button {
-    @extend %button;
+    @extend %action;
     background: transparent;
     color: #fff;
-    border: 2px solid $accent-color;
+    border: $bold-border;
 }

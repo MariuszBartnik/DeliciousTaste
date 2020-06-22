@@ -6,10 +6,10 @@ import './styles.scss';
 const RestaurantItem = ({ restaurant }) => {
     return (
         <div className="restaurant" data-test="RestaurantItem">
-            <div className="col">
+            <div className="restaurant-item-column">
                 <img className="thumbnail" src={restaurant.thumb} alt={`Thumbnail of ${restaurant.name}`} />
             </div>
-            <div className="col">
+            <div className="restaurant-item-column">
                 <h4 className="restaurant-name" data-test="RestaurantName">
                     {restaurant.name}
                 </h4>

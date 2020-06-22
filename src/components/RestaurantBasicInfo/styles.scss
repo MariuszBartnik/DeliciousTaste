@@ -21,8 +21,6 @@
     transform: translateX(-50%);
 }
 
-
-
 .info-content {
     @extend %info-item;
     border: $basic-border;
@@ -31,7 +29,6 @@
     line-height: 2rem;
     border-radius: 1rem;
 }
-
 
 .highlight-item {
     @extend %info-item;

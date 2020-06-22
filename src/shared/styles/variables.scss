@@ -1,6 +1,22 @@
+// Colors
 $dark-color: #1A1A1A;
 $light-color: #A1A1A1;
 $white-color: #FFF;
 $accent-color: #37ECCB;
+$transparent-black: rgba(0,0,0,.5);
+
+// Borders
 $basic-border: 1px solid $accent-color;
+$bold-border: 2px solid $accent-color;
+
+// Fonts
 $secondary-font: 'Playfair Display', serif;
+$bigger: 1.2rem;
+$smaller: .9rem;
+
+// Media queries breakpoints
+$tablet-breakpoint: 768px;
+$laptop-breakpoint: 1024px;
+
+// Other styles
+$transition: all .3s ease;

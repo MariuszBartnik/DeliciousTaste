@@ -1,3 +1,5 @@
+@import './variables.scss'; 
+
 @mixin button-hover($background-color, $color){
     background: $background-color;
     color: $color;
@@ -7,4 +9,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: $justify;
+}
+
+@mixin tablet {
+    @media (min-width: $tablet-breakpoint){
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: $laptop-breakpoint){
+        @content;
+    }
 }

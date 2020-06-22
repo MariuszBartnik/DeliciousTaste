@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.scss'
 
 import CityTopBar from '../../components/CityTopBar/';
 import BestRestaurants from '../../components/BestRestaurants/';

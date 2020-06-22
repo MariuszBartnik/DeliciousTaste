@@ -1,4 +1,5 @@
 @import '../../shared/styles/variables.scss';
+@import '../../shared/styles/placeholders.scss';
 
 .collection {
     position: relative;
@@ -7,30 +8,28 @@
     height: 200px;
 
     &::before{
+        @extend %full-width;
         content: '';
         position: absolute;
         top:0; left:0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0,0,0,.5);
+        background: $transparent-black;
     }
 }
 
 .text-wrapper {
+    @extend %full-width;
     position: relative;
-    width: 100%;
-    height: 100%;
     padding: 3rem 1rem;
 }
 
 .collection-title {
-    font-size: 1.1rem;
+    font-size: $bigger;
     color: $white-color;
     margin-bottom: .5rem;
 }
 
 .collection-desc {
-    font-size: .9rem;
+    font-size: $smaller;
     color: #e5e5e5;
 }
 
@@ -42,7 +41,7 @@
     display: inline-block;
     padding: .5rem 2rem;
     border: $basic-border;
-    transition: all .3s ease;
+    transition: $transition;
     
     &:hover{
         background: $accent-color;
@@ -51,16 +50,15 @@
     }
 }   
 
-@media (min-width: 768px){
+@include tablet {
     .collection{
         flex-basis: 49%;
         flex-direction: row;
     }
 }
 
-@media (min-width: 1024px){
+@include laptop {
     .collection{
         flex-basis: 45%;
-        flex-direction: row;
     }
 }

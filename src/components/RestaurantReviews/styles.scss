@@ -1,8 +1,9 @@
 @import '../../shared/styles/variables.scss';
+@import '../../shared/styles/placeholders.scss';
+@import '../../shared/styles/mixin.scss';
 
 .review-box {
-    display: flex;
-    flex-direction: column;
+    @extend %flex-column;
     border: $basic-border;
     padding: 1rem;
     margin: 1rem 0;
@@ -31,7 +32,7 @@
 
 .user-name{
     color: $dark-color;
-    font-size: 1.1rem;
+    font-size: $bigger;
     margin: .7rem 0;
 }
 
@@ -39,16 +40,15 @@
     display: block;
     width: 50%;
     margin: 0 auto;
-    font-size: .9rem;
+    font-size: $smaller;
     color: $white-color;
     padding: .5rem;
     border-radius: 1.5rem;
 }
 
 .rating-box {
+    @extend %flex-column;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -59,13 +59,13 @@
 }
 
 .review-date {
-    font-size: .9rem;
+    font-size: $smaller;
     text-align: right;
     color: $light-color;
 }
 
 
-@media (min-width: 768px){
+@include tablet {
     .review-box{
         flex-direction: row;
     }
@@ -80,7 +80,7 @@
             bottom: 0rem;
             right: -1rem;
             border-bottom: none;
-            border-right: 1px solid #37ECCB;
+            border-right: $basic-border;
         }
     }
 
@@ -116,7 +116,7 @@
     
 }
 
-@media (min-width: 1024px){
+@include laptop {
     .user-box{
         flex-basis: 20%;
     }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display&display=swap');
+@import './shared/styles/placeholders.scss';
 
 *{
   margin: 0;
@@ -16,28 +17,17 @@
   }
 }
 
-.wrapper {
-  font-family: 'Playfair Display', serif;
-  width: 100vw;
-  height: 100vh;
-  background: #1a1a1a;
-  color: #fff;
-  padding: 2rem 1rem;
-  overflow: hidden;
+.flexbox {
+  @extend %flexbox;
+  flex-direction: column;
+ 
+  @media (min-width: 768px){
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
-.flexbox {
-  width: 100%;
-  height: 100%;   
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  justify-content: center;
+.wrapper {
+  @extend %wrapper;
   overflow: hidden;
-
-
-  @media (min-width: 768px){
-      flex-direction: row;
-      align-items: center;
-  }
 }

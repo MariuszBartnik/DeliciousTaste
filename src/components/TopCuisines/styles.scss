@@ -1,5 +1,6 @@
 @import '../../shared/styles/variables.scss';
 @import '../../shared/styles/mixin.scss';
+@import '../../shared/styles/mixin.scss';
 
 .cuisines-list {
     @include flex(flex-start);
@@ -13,7 +14,7 @@
     padding: 1rem;
 }
 
-@media (min-width: 768px){
+@include tablet {
     .cuisine{
         flex-basis: 30%;
         margin: .5rem 1%;

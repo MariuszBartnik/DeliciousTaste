@@ -6,12 +6,12 @@
 } 
 
 .input {
-    @extend %button;
+    @extend %action;
     text-align: center;
     width: 100%;
     background: transparent;
     color: $white-color;
-    border: 2px solid $accent-color;
+    border: $bold-border;
     cursor: auto;
 
     &::placeholder{
@@ -21,7 +21,7 @@
 
 
 .submit-button {
-    @extend %button;
+    @extend %action;
     width: 100%;
     background: $accent-color;
     color: $dark-color;

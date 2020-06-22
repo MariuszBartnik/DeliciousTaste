@@ -1,4 +1,5 @@
 @import '../../shared/styles/variables.scss';
+@import '../../shared/styles/mixin.scss';
 
 .found-city {
     position: relative;
@@ -25,7 +26,7 @@
     color: $light-color;
 } 
 
-@media (min-width: 768px) {
+@include tablet {
     .found-city{
         flex: 1 0 48%;
         max-width: 48%;
@@ -36,7 +37,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@include laptop {
     .found-city {
         flex: 1 0 31.3333%;
         max-width: 31.3333%;
