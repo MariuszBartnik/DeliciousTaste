@@ -1,0 +1,24 @@
+@import '../../shared/styles/variables.scss';
+@import '../../shared/styles/placeholders.scss';
+
+.collection-top-bar {
+    position: relative;
+    color: $white-color;
+    padding: .5rem 0 2rem;
+    
+    h2 {
+        position: relative;
+        font-family: $secondary-font;
+        font-size: 2rem;
+        font-weight: 400;
+        text-align:center;
+    }
+
+    &::before {
+        @extend %full-width;
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        background: $transparent-black;
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import MainTitle from '../../components/MainTitle/';
 import PhotosGrid from '../../components/PhotosGrid/';
@@ -13,7 +14,7 @@ const MainPage = () => {
                 <div className="column">
                         <MainTitle />
                         <div>
-                            <button className="filled-button">Search for city</button>
+                            <Link to='/search' className="filled-button">Search for city</Link>
                             <button className="outline-button">Use current location</button>
                         </div>
                 </div>

@@ -1,9 +1,13 @@
 @import '../../shared/styles/variables.scss';
 
 .navbar {
-    font-family: $secondary-font;
     background: transparent;
-    color: $white-color;
     padding: 1rem;
     text-align: center;
+    
+    a{
+        font-family: $secondary-font;
+        color: $white-color;
+        text-decoration: none;
+    }
 }

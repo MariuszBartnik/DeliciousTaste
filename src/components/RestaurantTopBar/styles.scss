@@ -25,6 +25,10 @@
     }
 }
 
+.top-bar-wrapper{
+    position: relative;
+}
+
 .contact-info-bar {
     @extend %flex-column;
     position: relative;

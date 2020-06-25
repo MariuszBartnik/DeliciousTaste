@@ -5,7 +5,6 @@ import RestaurantBasicInfo from '../../components/RestaurantBasicInfo/';
 import RestaurantReviews from '../../components/RestaurantReviews/';
 import RestaurantLocation from '../../components/RestaurantLocation/';
 import Footer from '../../components/Footer/';
-import Loader from '../../components/Loader';
 
 import * as restaurant from '../../shared/API mockups/restaurant.json';
 import * as reviews from '../../shared/API mockups/reviews.json';
@@ -36,7 +35,6 @@ const RestaurantDetailsPage = () => {
                 coordinates={coordinates}
             />
             <Footer />
-            {/* <Loader /> */}
         </main>
     )
 }

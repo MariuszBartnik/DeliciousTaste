@@ -1,27 +1,34 @@
 import React from 'react'
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
+import { useHistory } from 'react-router-dom';
 
 import './styles.scss';
 
-const RestaurantItem = ({ restaurant }) => {
+const RestaurantItem = ({ item }) => {
+    const history = useHistory();
+
+    const navigate = (restaurant_id) => {
+        history.push(`/restaurant-details/${restaurant_id}`);
+    }
+
     return (
-        <div className="restaurant" data-test="RestaurantItem">
+        <div className="restaurant" data-test="RestaurantItem" onClick={() => {navigate(item.id)}}>
             <div className="restaurant-item-column">
-                <img className="thumbnail" src={restaurant.thumb} alt={`Thumbnail of ${restaurant.name}`} />
+                <img className="thumbnail" src={item.thumb} alt={`Thumbnail of ${item.name}`} />
             </div>
             <div className="restaurant-item-column">
                 <h4 className="restaurant-name" data-test="RestaurantName">
-                    {restaurant.name}
+                    {item.name}
                 </h4>
                 <p className="restaurant-address">
-                    {restaurant.location.address}
+                    {item.location.address}
                 </p>
 
                 <span 
                     className="restaurant-rating" 
-                    style={{background: `#${restaurant.user_rating.rating_color}`}} 
+                    style={{background: `#${item.user_rating.rating_color}`}} 
                 >
-                    {restaurant.user_rating.aggregate_rating}
+                    {item.user_rating.aggregate_rating}
                 </span>
             </div>
         </div>
@@ -29,12 +36,12 @@ const RestaurantItem = ({ restaurant }) => {
 }
 
 RestaurantItem.propTypes = {
-    restaurant: propTypes.shape({
-        id: propTypes.string,
-        name: propTypes.string,
-        location: propTypes.object,
-        thumb: propTypes.string,
-        user_rating: propTypes.object
+    item: PropTypes.shape({
+        id: PropTypes.string,
+        name: PropTypes.string,
+        location: PropTypes.object,
+        thumb: PropTypes.string,
+        user_rating: PropTypes.object
     })
 }
 

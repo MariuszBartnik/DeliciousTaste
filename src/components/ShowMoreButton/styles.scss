@@ -1,0 +1,18 @@
+@import '../../shared//styles/variables.scss';
+@import '../../shared/styles/placeholders.scss';
+@import '../../shared//styles/mixin.scss';
+
+.list-wrapper {
+    @include flex(space-between);
+}
+
+.show-more-button{
+    @extend %action;
+    width: 100%;
+    background: transparent;
+    border: $basic-border;
+
+    &:hover{
+        @include button-hover($accent-color, $white-color);
+    }
+}

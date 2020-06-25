@@ -6,6 +6,7 @@ import SearchPage from './views/SearchPage/';
 import CityListPage from './views/CityListPage/';
 import CityDetailsPage from './views/CityDetailsPage/';
 import RestaurantDetailsPage from './views/RestaurantDetailsPage/';
+import CollectionDetailsPage from './views/CollectionDetailsPage'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
+          <Route path='/collection-details' component={CollectionDetailsPage} />
           <Route path='/restaurant-details' component={RestaurantDetailsPage} />
           <Route path='/city-details' component={CityDetailsPage} />
           <Route path='/city-list' component={CityListPage} />
