@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import SectionTitle from '../SectionTitle/';
+import SectionTitle from '../SectionTitle';
 
-import { convertStringToArray } from '../../shared/scripts/utils';
+import { splitStringByDelimiter } from '../../shared/scripts/utils';
 import Checkbox from '../../assets/checkbox.svg';
 
 import './styles.scss';
 
 const RestaurantBasicInfo = ({cuisines, highlights}) => {
 
-    const renderedCuisines = convertStringToArray(cuisines);
+    const renderedCuisines = splitStringByDelimiter(cuisines, ',');
 
     return (
         <section data-test="RestaurantBasicInfo">

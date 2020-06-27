@@ -103,12 +103,12 @@ describe('Restaurant Reviews component', () => {
 
         it('Should render without errors', () => {
             const wrapper = findByTestAttribute(component, 'RestaurantReviews');
-            expect(wrapper.length).toBe(1);
+            expect(wrapper).toHaveLength(1);
         });
 
         it('Should render correct number of reviews items', () => {
             const reviewsItems = findByTestAttribute(component, 'ReviewItem');
-            expect(reviewsItems.length).toBe(3);
+            expect(reviewsItems).toHaveLength(3);
         });
         
     });
@@ -118,7 +118,7 @@ describe('Restaurant Reviews component', () => {
         it('Should not render if props were not sent', () => {
             const component = setUpTest(RestaurantReviews);
             const wrapper = findByTestAttribute(component, 'RestaurantReviews');
-            expect(wrapper.length).toBe(0);
+            expect(wrapper).toHaveLength(0);
         });
     })
     

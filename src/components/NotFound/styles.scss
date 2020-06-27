@@ -1,0 +1,66 @@
+@import '../../shared/styles/variables.scss';
+@import '../../shared/styles/mixin.scss';
+@import '../../shared/styles/placeholders.scss';
+
+.not-found-wrapper {
+    @extend %full-width;
+    @extend %flex-column;
+    align-items: center;
+}
+
+.not-found-icon{
+    width: 300px;
+}
+
+.not-found-text {
+    text-align: center;
+
+    h2{
+        font-family: $secondary-font;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    p {
+        font-size: $smaller;
+        color: $light-color;
+        margin: .5rem 0 2rem;
+    }
+
+    a{
+        @extend %action;
+        background: transparent;
+        width: 100%;
+        color: $white-color;
+        border: $bold-border;
+        text-decoration: none;
+
+        &:hover{
+            @include button-hover($accent-color, $dark-color);
+        }
+    }
+}
+
+@include tablet {
+    .not-found-icon{
+        width: 250px;
+    }
+
+
+.not-found-text {
+
+    h2{
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: $bigger;
+        margin: .5rem 0 2rem;
+    }
+
+}
+}
+
+@include laptop {
+    .not-found-icon{
+        width: 300px;
+    }
+}

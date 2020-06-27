@@ -1,7 +1,6 @@
 import RestaurantBasicInfo from './index';
 
 import { setUpTest, findByTestAttribute, checkProps } from '../../shared/scripts/testUtils';
-import RestaurantTopBar from '../RestaurantTopBar';
 
 describe('Restaurant Basic Info component', () => {
     
@@ -33,12 +32,12 @@ describe('Restaurant Basic Info component', () => {
 
         it('Should render without props', () => {
             const wrapper = findByTestAttribute(component, 'RestaurantBasicInfo');
-            expect(wrapper.length).toBe(1);
+            expect(wrapper).toHaveLength(1);
         });
 
         it('Should render with correct number of cuisine items', () => {
             const cuisinesItems = findByTestAttribute(component, 'Cuisine');
-            expect(cuisinesItems.length).toBe(3);
+            expect(cuisinesItems).toHaveLength(3);
         })
 
         it('Should render with correct first highlight name', () => {

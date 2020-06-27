@@ -1,3 +1,4 @@
-export const convertStringToArray = (string) => {
-    return string.split(',').map(item => item.trim());
+export const splitStringByDelimiter = (string, delimiter) => {
+    return string.split(delimiter).map(item => item.trim());
 } 
+

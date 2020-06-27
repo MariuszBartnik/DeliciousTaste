@@ -1,20 +1,18 @@
-import RestaurantTopBar from './index';
+import NameTopBar from './index';
 
 import { setUpTest, findByTestAttribute, checkProps } from '../../shared/scripts/testUtils';
 
-describe('Restaurant Top Bar component', () => {
+describe('Name Top Bar component', () => {
     
     describe('Checking propTypes', () => {
         
         it('Should render without warning', () => {
             const props = {
                 name: 'Restaurant Name',
-                phone: '+48 778 12 12',
-                address: 'New York 5th Avenue',
                 bg_img: 'https://www.google.com'
             }
 
-            const propsErrors = checkProps(RestaurantTopBar, props);
+            const propsErrors = checkProps(NameTopBar, props);
             expect(propsErrors).toBeUndefined();
         });
 
@@ -25,15 +23,13 @@ describe('Restaurant Top Bar component', () => {
         it('Should render without errors', () => {
             const props = {
                 name: 'Restaurant Name',
-                phone: '+48 778 12 12',
-                address: 'New York 5th Avenue',
                 bg_img: 'https://www.google.com'
             }
 
-            const component = setUpTest(RestaurantTopBar, {...props});
-            const wrapper = findByTestAttribute(component, 'RestaurantTopBar');
+            const component = setUpTest(NameTopBar, {...props});
+            const wrapper = findByTestAttribute(component, 'NameTopBar');
 
-            expect(wrapper.length).toBe(1);
+            expect(wrapper).toHaveLength(1);
         })
     })
     

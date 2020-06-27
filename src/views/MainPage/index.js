@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import MainTitle from '../../components/MainTitle/';
-import PhotosGrid from '../../components/PhotosGrid/';
+import MainTitle from '../../components/MainTitle';
+import PhotosGrid from '../../components/PhotosGrid';
 
 import './styles.scss';
 

@@ -2,47 +2,27 @@
 @import '../../shared/styles/placeholders.scss';
 @import '../../shared/styles/mixin.scss';
 
-.restaurant-top-bar {
-    position: relative;
-    color: $white-color;
-    padding: .5rem 0 0;
-    
-    h2 {
-        position: relative;
-        font-family: $secondary-font;
-        font-size: 3rem;
-        font-weight: 400;
-        text-align:center;
-        margin: 0 0 2rem;
-    }
-
-    &::before {
-        @extend %full-width;
-        content: '';
-        position: absolute;
-        top: 0; left: 0;
-        background: $transparent-black;
-    }
-}
-
-.top-bar-wrapper{
-    position: relative;
-}
-
 .contact-info-bar {
     @extend %flex-column;
     position: relative;
     justify-content: space-between;
     width:100%;
     padding: 1rem 3rem;
-    background: $transparent-black;
+    background: $dark-color;
 }
 
 .contact-detail {
     @include flex(flex-start);
+    flex-wrap: nowrap;
     flex: 1 0 33%;
     margin-bottom: 1.5rem;
     align-items: center;
+    color: $white-color;
+
+    a {
+        color: $white-color;
+        text-decoration: none;
+    }
 
     &:last-of-type {
         margin-bottom: 0;

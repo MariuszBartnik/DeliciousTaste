@@ -30,7 +30,7 @@ const ListWrapper = ({ title, subtitle, component, list, expandable }) => {
     const Component = components[component];
 
     return (
-        <section>
+        <section data-test="ListWrapper">
             <SectionTitle>
                 <h3>{ title }</h3>
                 <p> { subtitle } </p>
@@ -41,13 +41,18 @@ const ListWrapper = ({ title, subtitle, component, list, expandable }) => {
                         <Component 
                             key={(component === 'restaurant') ? item.restaurant.id : item.collection.collection_id} 
                             item={item[component]} 
+                            data-test="ListItem"
                         />
                     )
                 )}  
             </div>
 
             {expandable && (
-                <ShowMoreButton showMore={showMore} toggleShowMore={toggleShowMore} />
+                <ShowMoreButton 
+                    showMore={showMore} 
+                    toggleShowMore={toggleShowMore} 
+                    data-test="ShowMoreButton"
+                />
             )}            
 
         </section>

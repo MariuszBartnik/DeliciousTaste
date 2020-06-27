@@ -26,7 +26,7 @@ describe('Collection Item component', () => {
         
         let component;
         beforeAll(() => {
-            const collection = {
+            const item = {
                 collection_id: 12,
                 res_count: 32,
                 image_url: 'test url',
@@ -34,7 +34,7 @@ describe('Collection Item component', () => {
                 description: 'test description'
             };
 
-            component = setUpTest(CollectionItem, {collection});
+            component = setUpTest(CollectionItem, { item });
         })
 
         it('Should render with correct description', () => {

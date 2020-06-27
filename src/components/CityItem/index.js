@@ -12,8 +12,8 @@ const CityItem = ({ city }) => {
     }
 
     return (
-        <div class="found-city" onClick = {() => {navigate(city.id)}}>
-            <img class="country-flag" src={city.country_flag_url} alt={'Flag of' + city.country_name}/>
+        <div className="found-city" onClick = {() => {navigate(city.id)}}>
+            <img className="country-flag" src={city.country_flag_url} alt={'Flag of' + city.country_name}/>
             <p className="city-name" data-test="CityName" >{city.name}</p>
             <p className="country-name">{city.country_name}</p>
         </div>

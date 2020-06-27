@@ -8,7 +8,7 @@ describe('MainTitle', () => {
         const component = setUpTest(GalleryGrid);
         const wrapper = findByTestAttribute(component, 'GalleryGrid');
 
-        expect(wrapper.length).toBe(1);
+        expect(wrapper).toHaveLength(1);
     });
 
 });

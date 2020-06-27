@@ -45,12 +45,12 @@ describe('Cities component', () => {
 
         it('Should render without errors', () => {
             const wrapper = findByTestAttribute(component, 'CitiesList');
-            expect(wrapper.length).toBe(1);
+            expect(wrapper).toHaveLength(1);
         });
 
         it('Should render correct number of city item', () => {
             const cityItem = findByTestAttribute(component, 'CityListItem');
-            expect(cityItem.length).toBe(2);
+            expect(cityItem).toHaveLength(2);
         })
     })
 
@@ -59,7 +59,7 @@ describe('Cities component', () => {
         it('Should not render without props', () => {
             const component = setUpTest(Cities);
             const wrapper = findByTestAttribute(component, 'CitiesList');
-            expect(wrapper.length).toBe(0);
+            expect(wrapper).toHaveLength(0);
         })        
     })
 })

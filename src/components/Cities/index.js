@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-import CityItem from '../CityItem/';
+import CityItem from '../CityItem';
 
 import './styles.scss';
 

@@ -8,7 +8,7 @@ describe('MainTitle', () => {
         const component = setUpTest(MainTitle);
         const wrapper = findByTestAttribute(component, 'MainTitle');
 
-        expect(wrapper.length).toBe(1);
+        expect(wrapper).toHaveLength(1);
     });
 
 });

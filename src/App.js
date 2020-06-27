@@ -14,10 +14,10 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path='/collection-details' component={CollectionDetailsPage} />
-          <Route path='/restaurant-details' component={RestaurantDetailsPage} />
-          <Route path='/city-details' component={CityDetailsPage} />
-          <Route path='/city-list' component={CityListPage} />
+          <Route path='/collection-details/:id' component={CollectionDetailsPage} />
+          <Route path='/restaurant-details/:id' component={RestaurantDetailsPage} />
+          <Route path='/city-details/:id' component={CityDetailsPage} />
+          <Route path='/city-list/:query' component={CityListPage} />
           <Route path='/search' component={SearchPage} />
           <Route path='/' component={MainPage} />
         </Switch>

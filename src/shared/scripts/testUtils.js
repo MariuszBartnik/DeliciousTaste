@@ -16,3 +16,13 @@ export const checkProps = (component, expectedProps) => {
     const propsErrors = checkPropTypes(component.propTypes, expectedProps, 'props', component.name);
     return propsErrors;
 }
+
+export const simulateInputChange = (component, inputElement, inputText) => {
+    const changeEvent = {target: {value: inputText}};
+    const input = findByTestAttribute(component, inputElement);
+
+    input.simulate('change', changeEvent);
+    const changedInput = findByTestAttribute(component, inputElement);
+
+    return changedInput;
+}

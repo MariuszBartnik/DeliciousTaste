@@ -44,12 +44,12 @@ describe('Restaurant Item component', () => {
                 }
             };
 
-            component = setUpTest(RestaurantItem, {restaurant: expectedProps});
+            component = setUpTest(RestaurantItem, {item: expectedProps});
         });
 
         it('Should render without errors', () => {
             const wrapper = findByTestAttribute(component, 'RestaurantItem');
-            expect(wrapper.length).toBe(1);
+            expect(wrapper).toHaveLength(1);
         });
         
 

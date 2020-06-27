@@ -1,31 +1,32 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-import Navbar from '../Navbar/';
+import Navbar from '../Navbar';
 
 import './styles.scss';
 
-const CollectionTopBar = ({ title, bg_img }) => {
+const NameTopBar = ({ name, bg_img }) => {
     return (
         <div 
-            className="collection-top-bar" 
+            className="restaurant-top-bar" 
             style={{background: `url(${bg_img})`, 
                     backgroundSize: 'cover',
                     backgroundPosition: 'center center'}}
-            data-test="CollectionTopBar"
+            data-test="NameTopBar"
         >
             <div className="top-bar-wrapper">
                 <Navbar />
-
-                <h2> { title } </h2>
+                <h2>
+                    { name }
+                </h2>                
             </div>
         </div>
     )
 }
 
-CollectionTopBar.propTypes = {
-    title: PropTypes.string,
-    bg_img: PropTypes.string
+NameTopBar.propTypes = {
+    name: PropTypes.string,
+    bg_img: PropTypes.string,
 }
 
-export default CollectionTopBar
+export default NameTopBar

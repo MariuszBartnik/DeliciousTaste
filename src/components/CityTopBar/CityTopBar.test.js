@@ -1,12 +1,42 @@
 import CityTopBar from './index';
 
-import { setUpTest, findByTestAttribute } from '../../shared/scripts/testUtils';
+import { setUpTest, findByTestAttribute, checkProps } from '../../shared/scripts/testUtils';
 
 describe('CityTopBar', () => {
-    it('Should render with correct city name', () => {
-        const component = setUpTest(CityTopBar, {city: 'Warsaw', nightlife_index: '5.0', popularity: '5.0'});
-        const cityName = findByTestAttribute(component, 'CityName');
+    describe('Checking props', () => {
+        const props = {
+            city: 'Warsaw',
+            nightlife_index: '5.0',
+            popularity: '4.9'
+        }
+        const propsErrors = checkProps(CityTopBar, props);
 
-        expect(cityName.text()).toEqual('Warsaw');
+        expect(propsErrors).toBeUndefined();
     })
+    
+    describe('Checking rendering', () => {
+        it('Should render with correct city name', () => {
+            const props = {
+                city: 'Warsaw',
+                nightlife_index: '5.0',
+                popularity: '4.9'
+            }
+            const component = setUpTest(CityTopBar, {...props});
+            const cityName = findByTestAttribute(component, 'CityName');
+    
+            expect(cityName.text()).toEqual('Warsaw');
+        })
+        
+        it('Should render with default nightlife_index', () => {
+            const props = {
+                city: 'Warsaw',
+                popularity: '4.9'
+            }
+            const component = setUpTest(CityTopBar, {...props});
+            const nightlifeIndex = findByTestAttribute(component, 'NightlifeIndex');
+    
+            expect(nightlifeIndex.text()).toEqual('-');
+        })
+    })
+    
 })

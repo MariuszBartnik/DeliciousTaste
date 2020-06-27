@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.scss';
 
-import MainTitle from '../../components/MainTitle/';
-import SearchForm from '../../components/SearchForm/';
+import MainTitle from '../../components/MainTitle';
+import SearchForm from '../../components/SearchForm';
 
 const SearchPage = () => {
     return (

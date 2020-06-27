@@ -30,7 +30,7 @@ describe('Top Cuisines component', () => {
         
         it('Should render correct number of cuisines items', () => {
             const cuisineItem = findByTestAttribute(component, 'CuisineItem');
-            expect(cuisineItem.length).toBe(3);
+            expect(cuisineItem).toHaveLength(3);
         });
     
         it('Should render with correct cuisine name', () => {
