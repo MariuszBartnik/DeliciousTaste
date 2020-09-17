@@ -47,7 +47,7 @@ const ListWrapper = ({ title, subtitle, component, list, expandable }) => {
                 )}  
             </div>
 
-            {expandable && (
+            {expandable && list.length > 2 && (
                 <ShowMoreButton 
                     showMore={showMore} 
                     toggleShowMore={toggleShowMore} 

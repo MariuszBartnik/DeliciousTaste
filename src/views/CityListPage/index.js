@@ -1,29 +1,49 @@
-import React from 'react'
-import './styles.scss'
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import axios from 'axios';
 
 import MainTitle from '../../components/MainTitle';
 import Cities from '../../components/Cities';
 import NotFound from '../../components/NotFound';
+import Loader from '../../components/Loader';
 
-import * as cities from '../../shared/API mockups/cities.json';
-
+import './styles.scss'
 
 const CityListPage = () => {
+    const [cities, setCities] = useState();
+    const { query } = useParams();
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await axios
+                .post('http://localhost:5000/api/cities/', { query });
+
+                setCities(response.data);
+        }
+
+        fetchData();
+    }, [query])
+
     return (
         <main className="scrollable-wrapper" data-test="CityListPageWrapper">
-            {/* Check type of response for not found resource */}
-            {(cities == null) ? 
-                (
-                    <NotFound />              
-                ) : (
-                    <>
-                        <MainTitle />
-                        <div className="container">
-                            <Cities cities={cities.location_suggestions} />      
-                        </div>
-                    </>
-                )
-            }
+            {(cities) ? (
+                <>
+                    {(cities.location_suggestions.length  === 0) ? 
+                        (
+                            <NotFound />              
+                        ) : (
+                            <>
+                                <MainTitle />
+                                <div className="container">
+                                    <Cities cities={cities.location_suggestions} />      
+                                </div>
+                            </>
+                        )
+                    }
+                </>
+            ) : (
+                <Loader theme={'dark-theme'} />
+            )}
         </main>
     )
 }

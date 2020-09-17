@@ -19,7 +19,7 @@ const CollectionItem = ({ item }) => {
                 <p className="collection-desc" data-test="CollectionDesc">
                     {item.description}
                 </p>
-                <Link to={`/collection-details/${item.collection_id}`} className="action-link">
+                <Link to={`/collection-details/${item.city_id}/${item.collection_id}`} className="action-link">
                     {`${item.res_count} restaurants >>`}
                 </Link>
             </div>

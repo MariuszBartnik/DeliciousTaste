@@ -22,7 +22,7 @@ const GoogleMap = ({ coordinates }) => {
         }else{
             onScriptLoad();
         }
-    })
+    }, []);
 
     const onScriptLoad = () => {
 

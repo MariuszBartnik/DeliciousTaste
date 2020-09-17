@@ -15,7 +15,7 @@ const MainPage = () => {
                         <MainTitle />
                         <div>
                             <Link to='/search' className="filled-button">Search for city</Link>
-                            <button className="outline-button">Use current location</button>
+                            <a href='https://mariusz-bartnik.firebaseapp.com' className="outline-button">See portfolio</a>
                         </div>
                 </div>
                 <div className="column">

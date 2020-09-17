@@ -18,7 +18,7 @@ const SearchForm = () => {
         let formValid = true;
 
         if(cityName.length < 3) errorsArray.push({msg: 'City name must be at least 3 chars long'});  
-        if(!/^[a-z]+$/i.test(cityName)) errorsArray.push({msg: 'City name must contain only letters'});
+        if(!/^[a-z\s]+$/i.test(cityName)) errorsArray.push({msg: 'City name must contain only letters'});
 
         if(errorsArray.length > 0){ 
             setErrors(errorsArray);

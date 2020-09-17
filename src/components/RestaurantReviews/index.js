@@ -33,7 +33,7 @@ const RestaurantReviews = ({ reviews }) => {
                                 rating={review.review.rating}
                                 starRatedColor="#37ECCB"
                                 starEmptyColor="#A1A1A1"
-                                starDimension="35px"
+                                starDimension="30px"
                                 starSpacing="3px"
                             />
 

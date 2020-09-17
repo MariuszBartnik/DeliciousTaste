@@ -14,7 +14,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path='/collection-details/:id' component={CollectionDetailsPage} />
+          <Route path='/collection-details/:cityId/:collectionId' component={CollectionDetailsPage} />
           <Route path='/restaurant-details/:id' component={RestaurantDetailsPage} />
           <Route path='/city-details/:id' component={CityDetailsPage} />
           <Route path='/city-list/:query' component={CityListPage} />

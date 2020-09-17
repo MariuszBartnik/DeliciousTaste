@@ -1,0 +1,53 @@
+@import '../../shared/styles/variables.scss';
+
+// const rotate = keyframes`
+//     from {
+//         transform: translate(-50%, -50%) rotate(0deg);
+//     }
+//     to {
+//         transform: translate(-50%, -50%) rotate(360deg);
+//     }
+// `;
+
+// const LoadingWrapper = styled.div`
+//     position: relative;
+//     width: 100vw;
+//     height: 100vh;
+// `;
+
+// .loading {
+//     position: absolute;
+//     width: 200px;
+//     height: 200px;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     border-radius: 50%;
+// }
+
+.loader-wrapper {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.loading{
+    width: 8px;
+    height: 0;
+    margin: 3px;
+    margin-top: 50px;
+}
+
+.dark-theme{
+    background: $white-color;
+}
+
+.light-theme{
+    background: $white-color;
+}

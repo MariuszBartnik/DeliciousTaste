@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import { useHistory } from 'react-router-dom';
 
+import restaurantIcon from '../../assets/restaurant-icon.svg';
+
 import './styles.scss';
 
 const RestaurantItem = ({ item }) => {
@@ -14,7 +16,7 @@ const RestaurantItem = ({ item }) => {
     return (
         <div className="restaurant" data-test="RestaurantItem" onClick={() => {navigate(item.id)}}>
             <div className="restaurant-item-column">
-                <img className="thumbnail" src={item.thumb} alt={`Thumbnail of ${item.name}`} />
+                <img className="thumbnail" src={item.thumb || restaurantIcon} alt={`Thumbnail of ${item.name}`} />
             </div>
             <div className="restaurant-item-column">
                 <h4 className="restaurant-name" data-test="RestaurantName">

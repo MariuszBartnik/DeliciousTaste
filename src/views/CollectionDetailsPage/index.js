@@ -1,34 +1,56 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import axios from 'axios';
 
 import NameTopBar from '../../components/NameTopBar';
 import ListWrapper from '../../components/ListWrapper';
 import Footer from '../../components/Footer';
-
-import * as collections from '../../shared/API mockups/collections.json';
-import * as location from '../../shared/API mockups/loccation_details.json'
+import Loader from '../../components/Loader';
 
 const CollectionDetailsPage = () => {
-    const {title, image_url} = collections.default.collections[0].collection;
-    const {best_rated_restaurant} = location.default;
+    const [collection, setCollection] = useState();
+    const [restaurants, setRestaurants] = useState();
+    const { cityId, collectionId } = useParams();
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await axios
+                .post('http://localhost:5000/api/collection-restaurants/', {
+                    cityId,
+                    collectionId
+                });
+            
+            setCollection(response.data.collection);
+            setRestaurants(response.data.restaurants);
+        };
+
+        fetchData();
+    }, [cityId, collectionId]);
 
     return (
         <main data-test="RestaurantDetailsPageWrapper">
-            <NameTopBar 
-                name={title}
-                bg_img={image_url}
-            />
-
-            <div className="container">
-                <ListWrapper 
-                    title='Collection Restaurants'
-                    subtitle={`Check restaurants included in this collection`}
-                    list={best_rated_restaurant}
-                    component = 'restaurant'
-                    expandable={false}
-                />            
-            </div>
-            
-            <Footer />
+            {(collection && restaurants) ? (
+                <>
+                    <NameTopBar 
+                        name={collection.title}
+                        bg_img={collection.image_url}
+                    />
+        
+                    <div className="container">
+                        <ListWrapper 
+                            title='Collection Restaurants'
+                            subtitle={`Check restaurants included in this collection`}
+                            list={restaurants}
+                            component = 'restaurant'
+                            expandable={false}
+                        />            
+                    </div>
+                    
+                    <Footer />
+                </>
+            ) : (
+                <Loader theme={'light-theme'} />
+            )}
         </main>
     )
 }
