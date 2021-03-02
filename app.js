@@ -14,10 +14,6 @@ app.use(express.static(path.resolve(__dirname, 'build')));
 const api = require('./routes/api');
 app.use('/api', api);
 
-// app.get('/', (req, res) => {
-//     res.send('Zomato API app server is running');       
-// })
-
 
 const PORT = process.env.PORT || 5000;
 
