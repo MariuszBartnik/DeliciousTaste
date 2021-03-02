@@ -7,7 +7,9 @@ import CityListPage from './views/CityListPage/';
 import CityDetailsPage from './views/CityDetailsPage/';
 import RestaurantDetailsPage from './views/RestaurantDetailsPage/';
 import CollectionDetailsPage from './views/CollectionDetailsPage'
+import axios from 'axios';
 
+axios.defaults.baseURL = "https://zomato-api-restaurants.herokuapp.com"
 
 function App() {
   return (

@@ -15,7 +15,7 @@ const CollectionDetailsPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             const response = await axios
-                .post('http://localhost:5000/api/collection-restaurants/', {
+                .post('/api/collection-restaurants/', {
                     cityId,
                     collectionId
                 });

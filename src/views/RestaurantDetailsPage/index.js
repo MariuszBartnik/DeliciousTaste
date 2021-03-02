@@ -18,9 +18,9 @@ const RestaurantDetailsPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             const responseRestaurant = await axios
-                .post('http://localhost:5000/api/restaurant-details', { id });
+                .post('/api/restaurant-details', { id });
             const responseReviews = await axios
-                .post('http://localhost:5000/api/customers-reviews', { id });
+                .post('/api/customers-reviews', { id });
 
             setRestaurant(responseRestaurant.data);
             setReviews(responseReviews.data.user_reviews);

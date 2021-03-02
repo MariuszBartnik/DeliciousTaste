@@ -6,24 +6,6 @@ import MarkerIcon from '../../assets/marker.png'
 import './styles.scss';
 
 const GoogleMap = ({ coordinates }) => {
-
-    useEffect(() => {
-        if(!window.google){
-            const script = document.createElement('script');
-            script.type='text/javascript';
-            script.src='https://maps.google.com/maps/api/js?key=AIzaSyDmuqYu3m5xiX4-3yCzxDqa7lTS9glZdWQ&v=3'
-        
-            const x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(script, x);
-
-            script.addEventListener('load', () => {
-                onScriptLoad();
-            })
-        }else{
-            onScriptLoad();
-        }
-    }, []);
-
     const onScriptLoad = () => {
 
         const mapCanvas = document.getElementById('myMap');
@@ -43,6 +25,24 @@ const GoogleMap = ({ coordinates }) => {
             icon: MarkerIcon
         })
     }
+
+    useEffect(() => {
+        if(!window.google){
+            const script = document.createElement('script');
+            script.type='text/javascript';
+            script.src='https://maps.google.com/maps/api/js?key=AIzaSyDmuqYu3m5xiX4-3yCzxDqa7lTS9glZdWQ&v=3'
+        
+            const x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(script, x);
+
+            script.addEventListener('load', () => {
+                onScriptLoad();
+            })
+        }else{
+            onScriptLoad();
+        }
+    }, []);
+
 
     return (
         <div className="map-canvas" id="myMap" />

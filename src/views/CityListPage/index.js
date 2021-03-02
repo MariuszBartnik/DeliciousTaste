@@ -16,7 +16,7 @@ const CityListPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             const response = await axios
-                .post('http://localhost:5000/api/cities/', { query });
+                .post('/api/cities/', { query });
 
                 setCities(response.data);
         }

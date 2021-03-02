@@ -16,9 +16,9 @@ const CityDetailsPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             const locationResponse = await axios
-                .post('http://localhost:5000/api/location-details/', { id });
+                .post('/api/location-details/', { id });
             const collectionsResponse = await axios
-                .post('http://localhost:5000/api/collections/', { id });
+                .post('/api/collections/', { id });
 
             setLocationDetails(locationResponse.data);
             setCollections(collectionsResponse.data);
