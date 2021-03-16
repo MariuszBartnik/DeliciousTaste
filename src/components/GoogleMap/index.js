@@ -30,7 +30,7 @@ const GoogleMap = ({ coordinates }) => {
         if(!window.google){
             const script = document.createElement('script');
             script.type='text/javascript';
-            script.src='https://maps.google.com/maps/api/js?key=AIzaSyDmuqYu3m5xiX4-3yCzxDqa7lTS9glZdWQ&v=3'
+            script.src='https://maps.google.com/maps/api/js?key=// GOOGLE API KEY HERE //'
         
             const x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(script, x);
